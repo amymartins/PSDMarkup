@@ -110,3 +110,40 @@ table {
     background: url('/images/contentseperater.jpg') top center no-repeat; 
     
 }
+
+.main {
+    background-image:url('/images/mainpagebackground.jpg');
+    background-position: top left;
+    height: 530px;
+    background-repeat: no-repeat;       
+}
+
+.welcome-text {
+    padding:45px 105px;
+    
+}
+
+.welcome-text h2 {
+    color:#616161;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.welcome-text p {
+    color:#9c9b9b;
+    font-size: 12px;
+    text-indent: 35px;
+    line-height: 16px;
+}
+
+.box-one {
+    width: 320px;
+}
+
+.box-two {
+    width:320px;
+}
+
+.box-three {
+    width: 320px;
+}
