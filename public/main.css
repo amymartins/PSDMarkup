@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /********************************************* site css **********************/
@@ -67,6 +67,20 @@ table {
     left:100px;   
 }
 
+.header a {
+    position:relative;
+    left:550px;
+    top:40px;
+    color:#848484;
+    padding-right: 30px;
+
+}
+
+a:hover {
+    color:#b5b3b3;
+
+}
+
 .feature {
     background-image:url('/images/featurebackground.jpg');
     background-position:left top;
@@ -85,7 +99,7 @@ table {
 .feature-content * {
     font-family:arial;
     width:280px;
-      margin:0 auto;
+    margin:0 auto;
 }
 
 .feature-content h1{
@@ -99,28 +113,30 @@ table {
     font-weight: bold;
     color:#000000;
     padding-left: 30px;
-    
+
 }
 
 .feature-content p {
     color:#ffffff;
     font-size: 12px;
     line-height: 18px;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-top: 10px;    
     background: url('/images/contentseperater.jpg') top center no-repeat; 
-    
+
 }
 
 .main {
     background-image:url('/images/mainpagebackground.jpg');
     background-position: top left;
     height: 530px;
-    background-repeat: no-repeat;       
+    background-repeat: no-repeat;     
 }
 
 .welcome-text {
-    padding:45px 105px;
-    
+    padding:45px 125px 20px 105px;
+    background:url('/images/welcomeseparator.jpg') bottom center no-repeat;
+
 }
 
 .welcome-text h2 {
@@ -133,17 +149,118 @@ table {
     color:#9c9b9b;
     font-size: 12px;
     text-indent: 35px;
-    line-height: 16px;
+    line-height: 16px; 
+
 }
 
-.box-one {
-    width: 320px;
+.columns {
+    padding: 25px 75px 25px 105px;
+    font-family: arial;
+
+
 }
 
-.box-two {
-    width:320px;
+.columns h2 {
+    color:#616161;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
 
-.box-three {
-    width: 320px;
+.columns h3 {
+    padding-bottom: 15px;
+    color:#616161;
+}
+
+.columns p {
+    color:#616161;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.column-one {
+    width:220px;
+    padding: 0 15px;
+    float: left;
+    background-image: url('/images/customerreview.jpg');
+    background-repeat: no-repeat;
+           
+        
+    
+}
+
+.column-one h2 {
+    text-indent: 45px;
+}
+
+.column-one p {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.customername {
+    font-weight: bold;
+}
+
+.column-two {
+    width:220px;
+    padding: 0 15px;
+    float:left;
+    background-image: url('/images/features.jpg');
+    background-repeat: no-repeat;
+}
+
+.column-two li {
+    font-size: 12px;
+    font-family: arial;
+    color:#616161;
+    padding-bottom: 15px;
+}
+
+.column-two h2 {
+    text-indent: 30px;
+}
+
+.column-three {
+    width:220px;
+    padding:0 15px;
+    float:left;
+    background-image: url('/images/prices.jpg');
+    background-repeat: no-repeat;
+}
+
+.column-three h2 {
+    text-indent: 30px;
+}
+
+.column-three li {
+    font-size: 12px;
+    font-family: arial;
+    color:#616161;
+    padding-bottom: 15px;
+}
+
+.footer {
+    height:40px;
+    background-color:#303123;
+}
+
+#footerlogo {
+    position:relative;
+    top:8px;
+    left:100px;
+}
+
+#copyrightsymbol {
+    position: relative;
+    left:100px;
+}
+
+#footercopyright {
+    position:relative;
+    left:100px;
+}
+
+#rss {
+    position:relative;
+    left:570px;
 }
