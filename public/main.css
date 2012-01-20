@@ -177,22 +177,21 @@ a:hover {
     padding-bottom: 15px;
 }
 
-.column-one {
+.column {
     width:220px;
     padding: 0 15px;
     float: left;
+}
+#customer-review {
     background-image: url('/images/customerreview.jpg');
     background-repeat: no-repeat;
-           
-        
-    
 }
 
-.column-one h2 {
+#customer-review h2 {
     text-indent: 45px;
 }
 
-.column-one p {
+#customer-review p {
     font-style: italic;
     font-size: 12px;
 }
@@ -201,38 +200,32 @@ a:hover {
     font-weight: bold;
 }
 
-.column-two {
-    width:220px;
-    padding: 0 15px;
-    float:left;
+#features {
     background-image: url('/images/features.jpg');
     background-repeat: no-repeat;
 }
 
-.column-two li {
+#features li {
     font-size: 12px;
     font-family: arial;
     color:#616161;
     padding-bottom: 15px;
 }
 
-.column-two h2 {
+#features h2 {
     text-indent: 30px;
 }
 
-.column-three {
-    width:220px;
-    padding:0 15px;
-    float:left;
+#prices {
     background-image: url('/images/prices.jpg');
     background-repeat: no-repeat;
 }
 
-.column-three h2 {
+#prices h2 {
     text-indent: 30px;
 }
 
-.column-three li {
+#prices li {
     font-size: 12px;
     font-family: arial;
     color:#616161;
