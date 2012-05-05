@@ -30,10 +30,26 @@ and open the template in the editor.
                 </div>                       
             </div>
             <div class="main">
-             
-            </div>
-        </div>
 
+                <form class="contact"  action="/form-handler.php" method="POST">
+
+                    <div class="form_row">
+                        <label for="name">Name: </label><input type="text" name="name" />
+                    </div>
+                    <div class="form_row">
+                        <label for="email">Email: </label><input type="text" name="email" />
+                    </div>
+                    <div class="form_row">
+                        <label for="comment">Comment: </label><textarea name="comment" />
+
+                        </textarea>
+                    </div>
+                    <input type="submit" value="send" />
+                    
+                </form>
+                
+            </div>
+            
 
     </body>
 </html>
